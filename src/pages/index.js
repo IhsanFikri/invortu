@@ -46,11 +46,11 @@ function Home({ location }) {
         {isInvitation && <LocationSection />}
         {/* <StorySection /> */}
         <PhotoSection />
-        <WishesSection />
+        {/* <WishesSection /> */}
     
         {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
         {/* <Gift/> */}
-        <Gift2/>
+        {/* <Gift2/> */}
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );
